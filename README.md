@@ -14,8 +14,12 @@ I'll see you all in 2022!
 
 ## Code
 
-[Tidying Documents Folder by File Extension](https://github.com/milesstroud/python-automationhelpers/blob/master/tidy_files.py)
-  - Sorts files into folders with corresponding name. Example: .py files are placed in the folder "Python's_Landing"
+[Functions and Imports](https://github.com/milesstroud/spotify_unwrapped/blob/main/imports/music_functions.py)
+  - Contains the necessary functions and imports, separated for cleanliness
+ 
+ [Spotify Unwrapped (C)](https://github.com/milesstroud/spotify_unwrapped/blob/main/collection_and_analysis/spotify_unwrapped_c.py)
+  - *Data Collection Script* This script makes calls to the Lyrics Genius and Spotify APIs using the lyricsgenius and Spotipy packages. Data collected is stored locally in a .csv file (though, I suggest you store this in multiple places if possible). This is the lifeblood of my future analysis :-) I will run this script 2X a day, 6 hours apart to hopefully catch as much of my audio-consumption as possible. The data will still be "sampled" in a sense, however.
+
 
 
 ## Authors
@@ -24,7 +28,7 @@ I'll see you all in 2022!
 
 ## References
 
-* **Lyrics Genius API** - (https://pypi.org/project/lyricsgenius/)
+* **lyricsgenius** - (https://pypi.org/project/lyricsgenius/)
 * **Spotipy** - (https://spotipy.readthedocs.io/en/2.16.1/)
 
 
