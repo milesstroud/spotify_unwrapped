@@ -51,4 +51,5 @@ latest_pull = existing_data['timestamp'][0]
 recent_tunes_complete['timestamp'] = pd.to_datetime(recent_tunes_complete['timestamp'])
 recent_tunes_complete = recent_tunes_complete.loc[recent_tunes_complete['timestamp'] > latest_pull]
 
-# recent_tunes_complete.to_csv("Recent_Tunes.csv",header=False,mode='a')
+#Append dataframe to csv
+recent_tunes_complete.to_csv("Recent_Tunes.csv",header=False,mode='a')
