@@ -12,6 +12,11 @@ This is purely for fun! I'm curious if I'll be able to look back at my year and 
 
 I'll see you all in 2022!
 
+## Code
+
+[Tidying Documents Folder by File Extension](https://github.com/milesstroud/python-automationhelpers/blob/master/tidy_files.py)
+  - Sorts files into folders with corresponding name. Example: .py files are placed in the folder "Python's_Landing"
+
 
 ## Authors
 
